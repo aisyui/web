@@ -42,29 +42,18 @@ a.navbar-brand {
 }
 
 span.icon-ai {
-    color: #847e00;
-    padding: 10px;
-    font-size: 22px;
+	color: #fff300;
+	padding: 10px;
+	font-size: 22px;
 }
-
-.navbar-nav {
-    font-size: 32px;
-				padding:10px;
-}
-
-.navbar-nav-left {
-    font-size: 20px;
-    margin-left: 50px;
-}
-
 
 .top-menu {
 	margin: 50px 0px 20px 0px;
 }
 
 .top-menu a.menu-link {
-    background-color: #fff;
-    padding: 10px;
+	background-color: #fff;
+	padding: 10px;
 }
 
 .top-menu a.menu-link span.icon-ai {
