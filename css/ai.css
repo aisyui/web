@@ -42,9 +42,18 @@ a.navbar-brand {
 }
 
 span.icon-ai {
-	color: #fff300;
+	color: #fff700;
+}
+
+span.navbar-title-text > a span.icon-ai {
 	padding: 10px;
 	font-size: 22px;
+}
+
+a.menu-link-left-black {
+	background-color:#272727;
+	padding: 10px;
+	margin: 0 0 0 5px;
 }
 
 .top-menu {
