@@ -62,6 +62,9 @@ footer#footer {
 		word-wrap: break-word;
 		word-break: break-all;
 	}
+	.vrm iframe {
+		width:100%;
+	}
 }
 
 .containerx p img {
@@ -315,4 +318,12 @@ span.menu-right-top {
 	justify-content: flex-end;
 }
 
+.vrm {
+	text-align: center;
+ overflow: hidden;
+}
 
+.vrm iframe {
+	width:600px;
+	height:400px;
+}
