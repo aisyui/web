@@ -319,6 +319,7 @@ span.menu-right-top {
 }
 
 .vrm {
+	display: none;
 	text-align: center;
  overflow: hidden;
 }
@@ -326,4 +327,18 @@ span.menu-right-top {
 .vrm iframe {
 	width:600px;
 	height:400px;
+}
+
+.vrm_button {
+	text-align: center;
+}
+
+.vrm_button i.fa-brands.fa-unity {
+	font-size: 33px;
+	color: #000;
+}
+
+.vrm_button button {
+	background-color: #0000;
+	border-style: none;
 }
