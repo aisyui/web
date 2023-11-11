@@ -154,30 +154,6 @@
 		</div>
 
 
-<div id="container">
-	<div class="vrm_button">
-		<button onclick="vrmViewer()" ><i class="fa-brands fa-unity" id="vrm_button" style="color: #000"></i></button>
-		<div class="vrm" id="vrm_iframe" style="display: none">
-			<iframe src="https://vrm.syui.ai" allowfullscreen frameborder="0" style="border: none"></iframe>
-		</div>
-	</div>
-</div>
-<script>
-function vrmViewer() {
-	var x = document.getElementById("vrm_iframe");
-	if (x.style.display === "none") {
-		x.style.display = "block";
-		var z = document.getElementById("vrm_button");
-		z.style.color = "#fff";
-	} else {
-		x.style.display = "none";
-		var z = document.getElementById("vrm_button");
-		z.style.color = "#000";
-	}
-	window.scrollTo(0, document.body.scrollHeight);
-}
-</script>
-
 </div>
 <footer id="footer">© syui</footer>
 
