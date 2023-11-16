@@ -342,3 +342,12 @@ span.menu-right-top {
 	background-color: #0000;
 	border-style: none;
 }
+
+a.menu-link-left-black i.fa-brands.fa-bitcoin {
+	color: #fff700;
+}
+
+span.menu-right-top div#app {
+    width: 100%;
+}
+
