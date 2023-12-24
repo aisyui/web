@@ -44,3 +44,14 @@ p.img-fa-bars {
 	padding: 5px 15px 5px 15px;
 	color:#99892b;
 }
+
+table {
+    width:100%;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+  padding:6px;
+}

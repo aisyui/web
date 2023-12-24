@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yui.syui.ai/game/</loc>
+    <lastmod>2023-12-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yui.syui.ai/novel/</loc>
     <lastmod>2023-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,11 +51,11 @@
   </url><url>
     <loc>https://yui.syui.ai/docs/</loc>
   </url><url>
-    <loc>https://yui.syui.ai/game/</loc>
-  </url><url>
     <loc>https://yui.syui.ai/img/</loc>
   </url><url>
     <loc>https://yui.syui.ai/manga/</loc>
+  </url><url>
+    <loc>https://yui.syui.ai/novel-game/</loc>
   </url><url>
     <loc>https://yui.syui.ai/story/</loc>
   </url><url>
