@@ -11,7 +11,7 @@ date = "2023-12-24"
 
 ## 操作方法
 
-|keymap|action|
+|<i class="fa-solid fa-keyboard"></i>|<i class="fa-solid fa-user-plus"></i>|
 |---|---|
 |space|ジャンプ|
 |shift|ダッシュ|
