@@ -2,27 +2,26 @@
 title = "game"
 slug = "game"
 aliases = "game"
+date = "2023-12-24"
 +++
 
-<link rel="stylesheet" href="/css/img.css" />
-<div class="img-new">
+<i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/releases/)
 
-<p><a href="https://game.syui.ai"><i class="far fa-play-circle"></i>    PLAY</a></p>
-<p>DOWNLOAD</p>
-<p>
-  <a href="https://github.com/syui/game/releases/download/v3.0/yui-win.zip"><i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a>
-	<a href="https://github.com/syui/game/releases/download/v3.0/yui-mac.zip"><i class="fab fa-apple"style="font-size:30px;margin:10px;"></i></a>
-	<a href="https://github.com/syui/game/releases/download/v3.0/yui-ios.ipa"><i class="fab fa-app-store-ios"style="font-size:30px;margin:10px;"></i></a>
-	<a href="https://github.com/syui/game/releases/download/v3.0/yui-android.apk"><i class="fab fa-android"style="font-size:30px;margin:10px;"></i></a>
-</p>
-<p>
-	<img src="/img/c_01.webp">
-	<img src="/img/c_02.webp">
-	<img src="/img/c_03.webp">
-	<img src="/img/c_04.webp">
-</p>
+![](/img/ue_beta_01.png)
 
-<p>
-<blockquote>ひょんなことから宇宙人の標的に？</blockquote>
-</p>
+## 操作方法
 
+|keymap|action|
+|---|---|
+|space|ジャンプ|
+|shift|ダッシュ|
+|1|スキル|
+|shift+F1 / esc / win|画面を抜ける|
+
+## β版のストーリー
+
+> 落しものを探しに
+
+![](/img/ue_beta_manga.png)
+
+<img src="/img/ue_beta_00.png"/> <img src="/img/ue_beta_02.png"> 
