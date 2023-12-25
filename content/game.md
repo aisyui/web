@@ -9,16 +9,6 @@ date = "2023-12-24"
 
 ![](/img/ue_beta_01.png)
 
-```sh
-# 64bitのみ
-Windows
-├── Engine
-├── Manifest_NonUFSFiles_Win64.txt
-├── Manifest_UFSFiles_Win64.txt
-├── yui
-└── yui.exe  <-これを実行
-```
-
 ## 操作方法
 
 |<i class="fa-solid fa-keyboard"></i>|<i class="fa-solid fa-user-plus"></i>|
