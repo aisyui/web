@@ -5,7 +5,9 @@ aliases = "game"
 date = "2023-12-24"
 +++
 
+<!--
 <i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/releases/)
+-->
 
 ![](/img/ue_beta_01.png)
 
