@@ -5,11 +5,7 @@ aliases = "game"
 date = "2023-12-24"
 +++
 
-<!--
-<i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/releases/)
--->
-
-![](/img/ue_beta_01.png)
+<i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/src/branch/master/yui.zip)
 
 ## 操作方法
 
@@ -17,8 +13,6 @@ date = "2023-12-24"
 |---|---|
 |space|ジャンプ|
 |shift|ダッシュ|
-|1|スキル|
-|shift+F1 / esc / win|画面を抜ける|
 
 ## β版のストーリー
 
@@ -26,4 +20,3 @@ date = "2023-12-24"
 
 ![](/img/ue_beta_manga.png)
 
-<img src="/img/ue_beta_00.png"/> <img src="/img/ue_beta_02.png"> 
