@@ -5,7 +5,7 @@ aliases = "game"
 date = "2023-12-24"
 +++
 
-<i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/src/branch/master/yui.zip)
+<i class="fab fa-windows" style="font-size:30px;margin:10px;"></i></a> [DOWNLOAD](https://git.syui.ai/ai/ue/raw/branch/master/yui.zip)
 
 ## 操作方法
 
