@@ -55,8 +55,8 @@
 	border-color: #dee2e6 #dee2e6 #fff;
 }
 .navbar-nav-right > a > img {
-    width:20px;
-				padding:10px;
+    width:15px;
+				padding-right:10px;
 }
 
 .nav-tabs .dropdown-menu {
