@@ -351,6 +351,14 @@ a.menu-link-left-black i.fa-solid.fa-cube {
 	color: #fff700;
 }
 
+a.menu-link-left-black {
+	background-color:#343434;
+	padding: 10px;
+	margin: 0 0 0 5px;
+}
+
+
+
 span.menu-right-top div#app {
     width: 100%;
 }
