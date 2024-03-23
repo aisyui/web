@@ -1,4 +1,5 @@
 @media screen and (max-width:1000px){i.icon.ion-minus-circled{display:none}
+#window{width:100%;}
 }
 @media screen and (max-width:800px){body{padding-top:0px;}
 #title-left{left:50%;}
