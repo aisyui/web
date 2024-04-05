@@ -1059,7 +1059,7 @@ table {
 
 li.blog-list-first {
 	background-color: #fff;
-	padding:10px 40px;;
+	padding:20px 40px;;
 	border: solid 1px #eee;
 	display: block;
 }
@@ -1071,7 +1071,7 @@ li.blog-list-first span.blog-date {
 
 li.blog-list-all {
 	background-color: #fff;
-	padding:10px 40px;;
+	padding:20px 40px;;
 	border: solid 1px #eee;
 	display: none;
 }
@@ -1083,7 +1083,17 @@ li.blog-list-all span.blog-date {
 
 li.blog-menu {
 	text-align: center;
-	padding:10px 40px;;
+}
+
+li.blog-menu button {
+	background-color: #fff;
+	border: none;
+	width:99%;
+	padding:20px;
+}
+
+li.blog-menu button:hover {
+	background-color: #def;
 }
 
 .hotkeys-docs table tbody tr code {
@@ -1109,18 +1119,14 @@ li.blog-menu {
 	border-radius: 4px;
 }
 
-li.blog-menu button {
-	padding:5px 10px;
-	background-color: #fff;
-	border: none;
-}
-
-li.blog-menu button:hover {
-	background-color: #313131;
-	color: #fff700;
-}
-
 a.menu-link-left-black span.icon-aiterm {
 	color: #fff700;
 }
 
+li.commit {
+    background-color: #f1f1f1;
+    padding: 40px;
+    font-size: 25px;
+    text-align: center;
+				color: #fff;
+}
