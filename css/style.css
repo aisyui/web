@@ -1119,3 +1119,7 @@ li.blog-menu button:hover {
 	background-color: #313131;
 	color: #fff700;
 }
+
+a.menu-link-left-black span.icon-aiterm {
+	color: #fff700;
+}
