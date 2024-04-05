@@ -6,8 +6,8 @@
 		<div id="blog-archives" class="category">
 			<ul class="cp_list">
 				{{ range .Data.Pages.Reverse }}
-				<li>
-					<a href="{{.Permalink}}">{{.Title}}</a>
+				<li class="blog-list-first">
+					<a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
 				</li>
 				{{ end }}
 			</ul>

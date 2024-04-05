@@ -1,5 +1,4 @@
 public
-dist
 build
 resources
 *.lock
@@ -36,3 +35,5 @@ yarn-error.log*
 
 content/*/*_private.pem
 content/*/*.json
+
+static/*lock*

@@ -21,19 +21,23 @@
 		<link rel="icon" href="/icon/ai.png" />
 		<link rel="shortcut icon" href="/icon/ai.png" />
 		<link rel="apple-touch-icon" href="/icon/apple-touch-icon.png" />
-		<link rel="stylesheet" href="/bower_components/icomoon/css/icomoon.css" />
 		<link rel="stylesheet" href="/css/style.css" />
 		<link rel="stylesheet" href="/css/svg.css" />
-		<link rel="stylesheet" href="/bower_components/font-awesome/css/all.min.css" />
+		<link rel="stylesheet" href="/pkg/icomoon/css/icomoon.css" />
+		<link rel="stylesheet" href="/pkg/font-awesome/css/all.min.css" />
 		<script type="application/ld+json">
 			{
-			  "@context": "http://schema.org",
-			  "@type": "WebSite",
+				"@context": "http://schema.org",
+					"@type": "WebSite",
 					"name": "{{ .Title }}",
 					"url": "{{ .Site.BaseURL }}"
 			}
 		</script>
-{{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{ end -}}
+		<script src="/pkg/hotkeys-js/dist/hotkeys.min.js"></script>
+		<script src="/pkg/hotkeys-js/dist/terminal.js"></script>
+		<script src="/js/index.js"></script>
+
+		{{ range .AlternativeOutputFormats -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+		{{ end -}}
 	</head>

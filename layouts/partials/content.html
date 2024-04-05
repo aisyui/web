@@ -7,22 +7,29 @@
 
 					{{ if or (eq $t "blog") }}
 					<li class="top">
-						<a href="{{.Permalink}}">blog</a>
+						<a href="{{.Permalink}}">blog</a> <a class="li-link-left" href="{{ .Site.BaseURL }}/blog/index.xml"><i class="fa-solid fa-rss"></i></a>
 					</li>
-					{{ range $index,$value := first 5 (where $.Site.RegularPages.ByDate.Reverse "Section" "blog") }}
-					<li class="blog-list">
-						<a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
-					</li>
+
+					{{ range $index,$value := (where $.Site.RegularPages.ByDate.Reverse "Section" "blog") }}
+					{{ if lt $index 1 }}
+						<li class="blog-list-first" style="display:block;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span> </li>
+					{{ else }}
+						<li class="blog-list-all" style="display:none;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span> </li>
 					{{ end }}
-					<li class="blog-menu"><a href="/blog"><i class="fa-solid fa-bars"></i></a></li>
+					{{ end }}
+
+					<li class="blog-menu"><button onclick="blog_list_open();"><i class="fa-solid fa-angle-down"></i></button></li>
 					{{ end }}
 
 					{{ if or (eq $t "chara") (eq $t "story") (eq $t "card") (eq $t "vrm") }}
 
+					<li class="commit">
+						<span class="icon-moji_a"></span>
+					</li>
+
 					<li class="top">
 						<a href="{{.Permalink}}">{{.Title}}</a>
 					</li>
-
 					{{ if or (eq $t "card") }}
 					{{ .Content }}
 					{{ else }}
@@ -31,6 +38,16 @@
 					{{ end }}
 
 					{{ end }}
+
+					<li class="commit">
+						<span class="icon-moji_a"></span>
+						<!--
+						<i class="fa-solid fa-code-branch"></i>
+						<i class="fa-solid fa-code-commit"></i>
+						<i class="fa-solid fa-code-merge"></i>
+						-->
+					</li>
+
 			</ul>
 		</div>
 	</div>

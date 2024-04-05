@@ -2,6 +2,7 @@
 title = "story"
 slug = "story"
 date = "2024-01-22"
+aliases = ['manga']
 +++
 
 <div class="story">
@@ -12,8 +13,7 @@ date = "2024-01-22"
 
 </div>
 
-<iframe src="https://manga.syui.ai/0" allowfullscreen frameborder="0" class="manga"></iframe>
-
+<iframe src="https://manga.syui.ai" allowfullscreen frameborder="0" class="manga"></iframe>
 
 <!--more-->
 
