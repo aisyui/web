@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+{{ partial "navbar.html" . }}
+{{ partial "header.html" . }}
+{{ .Content }}
+
+<hr />
+<article>
+	<div class="content">
+		{{ with .Resources.Match "*.webp" }}
+		<div class="top-card">
+			<p>
+			{{ range sort . }}
+			<img src="{{ .RelPermalink }}">
+			{{ end }}
+			</p>
+		</div>
+		{{ end }}
+	</div>
+</article>
+
+</div>
+{{ partial "footer.html" . }}
+</body>
+</html>

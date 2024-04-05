@@ -1,0 +1,38 @@
+<div id="container">
+	<div class="outer">
+		<div id="blog-archives" class="category">
+			<ul class="cp_list">
+					{{ range .Data.Pages }}
+					{{ $t := index (split .Permalink "/") 3 }}
+
+					{{ if or (eq $t "blog") }}
+					<li class="top">
+						<a href="{{.Permalink}}">blog</a>
+					</li>
+					{{ range $index,$value := first 5 (where $.Site.RegularPages.ByDate.Reverse "Section" "blog") }}
+					<li class="blog-list">
+						<a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
+					</li>
+					{{ end }}
+					<li class="blog-menu"><a href="/blog"><i class="fa-solid fa-bars"></i></a></li>
+					{{ end }}
+
+					{{ if or (eq $t "chara") (eq $t "story") (eq $t "card") (eq $t "vrm") }}
+
+					<li class="top">
+						<a href="{{.Permalink}}">{{.Title}}</a>
+					</li>
+
+					{{ if or (eq $t "card") }}
+					{{ .Content }}
+					{{ else }}
+					{{ .Summary }}
+					{{ end }}
+					{{ end }}
+
+					{{ end }}
+			</ul>
+		</div>
+	</div>
+</div>
+</div>
