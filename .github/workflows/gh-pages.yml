@@ -1,0 +1,35 @@
+name: github pages
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 0.89.4
+        # extended: true
+
+    - name: Build
+      env: 
+        TZ: "Asia/Tokyo"
+      run: |
+           hugo version
+           TZ=Asia/Tokyo hugo
+           touch ./public/.nojekyll
+           cp ./CNAME ./public/
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages
+        user_name: 'ai[bot]'
+        user_email: '138105980+yui-syui-ai[bot]@users.noreply.github.com'
