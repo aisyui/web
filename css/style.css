@@ -1048,14 +1048,28 @@ table {
 table {
 	border-spacing: 2px;
 }
+	
 
-li.blog-list {
+li.blog-list-first {
 	background-color: #fff;
 	padding:10px 40px;;
 	border: solid 1px #eee;
+	display: block;
 }
 
-li.blog-list span.blog-date {
+li.blog-list-first span.blog-date {
+	float:left;
+	padding: 0 20px;
+}
+
+li.blog-list-all {
+	background-color: #fff;
+	padding:10px 40px;;
+	border: solid 1px #eee;
+	display: none;
+}
+
+li.blog-list-all span.blog-date {
 	float:left;
 	padding: 0 20px;
 }
