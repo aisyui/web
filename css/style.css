@@ -1036,14 +1036,6 @@ model-viewer {
     height: 400px;
 }
 
-thead {
-	background-color: #fff;
-}
-tbody {
-	padding: 10px;
-	background-color: #fff;
-}
-
 table {
 	margin-bottom: 2em;
 	margin-top: 2em;
@@ -1070,4 +1062,32 @@ li.blog-list span.blog-date {
 li.blog-menu {
 	text-align: center;
 	padding:10px 40px;;
+}
+
+.hotkeys-docs table tbody tr {
+	color: #313131;
+}
+
+.hotkeys-docs table tbody tr code {
+	border-radius: 4px;
+	background-color: #fff;
+	padding:5px 10px;
+	color:#313131;
+}
+
+.hotkeys-docs table {
+	height: 50px;
+}
+
+.hotkeys-docs table tbody tr th.row {
+	border-radius: 4px;
+	background-color:#313131;
+}
+
+.hotkeys-docs table tbody tr span.icon-aiterm {
+	color: #fff700;
+}
+
+.hotkeys-docs table tbody tr td {
+	border-radius: 4px;
 }
