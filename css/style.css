@@ -42,10 +42,17 @@ p {
 }
 
 footer#footer {
-	color:#999;
+	margin-top:100px;
 	text-align: center;
-	margin: 40px 0;
-	font-size: 18px;
+	height:60px;
+	padding-top:100px;
+	color: #fff700;
+	font-size: 20px;
+	background-color:#313131;
+}
+
+footer#footer a {
+	color: #fff700;
 }
 
 .containerx p img {
