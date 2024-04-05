@@ -1031,6 +1031,7 @@ i.fa-brands.fa-unity {
 i.fa-brands.fa-git-alt {
     color: #fff700;
 }
+
 model-viewer {
     width: 100%;
     height: 400px;
@@ -1064,10 +1065,6 @@ li.blog-menu {
 	padding:10px 40px;;
 }
 
-.hotkeys-docs table tbody tr {
-	color: #313131;
-}
-
 .hotkeys-docs table tbody tr code {
 	border-radius: 4px;
 	background-color: #fff;
@@ -1080,12 +1077,11 @@ li.blog-menu {
 }
 
 .hotkeys-docs table tbody tr th.row {
-	border-radius: 4px;
-	background-color:#313131;
+	background-color: #fff;
 }
 
 .hotkeys-docs table tbody tr span.icon-aiterm {
-	color: #fff700;
+	font-size:24px;
 }
 
 .hotkeys-docs table tbody tr td {
