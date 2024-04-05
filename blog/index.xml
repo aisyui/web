@@ -17,5 +17,14 @@
       <description>web pageのlayoutを変更しました。</description>
     </item>
     
+    <item>
+      <title>start blog</title>
+      <link>https://yui.syui.ai/blog/post/2024/04/04/blog/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://yui.syui.ai/blog/post/2024/04/04/blog/</guid>
+      <description>blogをはじめました。</description>
+    </item>
+    
   </channel>
 </rss>

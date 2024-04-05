@@ -110,7 +110,7 @@ ul.cp_list {
 	padding: 0;
 }
 
-ul.cp_list li {
+ul.cp_list li.top {
 	padding: 30px 0;
 	width: auto;
 	background-color: #313131;
@@ -1056,4 +1056,18 @@ table {
 	border-spacing: 2px;
 }
 
+li.blog-list {
+	background-color: #fff;
+	padding:10px 40px;;
+	border: solid 1px #eee;
+}
 
+li.blog-list span.blog-date {
+	float:left;
+	padding: 0 20px;
+}
+
+li.blog-menu {
+	text-align: center;
+	padding:10px 40px;;
+}
