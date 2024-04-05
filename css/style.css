@@ -208,6 +208,7 @@ pre > code {
 
 h2 {
 	line-height: 2rem;
+	padding-bottom:2rem;
 }
 
 span.tag {
@@ -1055,7 +1056,6 @@ table {
 table {
 	border-spacing: 2px;
 }
-	
 
 li.blog-list-first {
 	background-color: #fff;
@@ -1123,3 +1123,4 @@ li.blog-menu button:hover {
 a.menu-link-left-black span.icon-aiterm {
 	color: #fff700;
 }
+
