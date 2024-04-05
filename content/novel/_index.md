@@ -1,5 +1,0 @@
----
-title: "novel"
-type: novel
----
-
