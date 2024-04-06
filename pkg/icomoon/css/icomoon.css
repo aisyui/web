@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?n3nelm');
-  src:  url('../fonts/icomoon.eot?n3nelm#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?n3nelm') format('truetype'),
-    url('../fonts/icomoon.woff?n3nelm') format('woff'),
-    url('../fonts/icomoon.svg?n3nelm#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?3kprot');
+  src:  url('../fonts/icomoon.eot?3kprot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3kprot') format('truetype'),
+    url('../fonts/icomoon.woff?3kprot') format('woff'),
+    url('../fonts/icomoon.svg?3kprot#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-git_bg:before {
+  content: "\e9d4";
+}
+.icon-git:before {
+  content: "\e9d3";
+}
 .icon-moji_k .path1:before {
   content: "\e900";
   color: rgb(0, 0, 0);

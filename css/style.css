@@ -1123,6 +1123,10 @@ a.menu-link-left-black span.icon-aiterm {
 	color: #fff700;
 }
 
+a.menu-link-left-black span.icon-git_bg {
+	color: #fff700;
+}
+
 li.commit {
     background-color: #f1f1f1;
     padding: 40px;
