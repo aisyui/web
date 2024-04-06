@@ -1135,4 +1135,7 @@ li.commit {
 				color: #fff;
 }
 
-
+a.li-link-left {
+    float: right;
+    padding-right: 20px;
+}
