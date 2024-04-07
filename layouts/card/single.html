@@ -9,7 +9,7 @@
 		{{ with .Resources.Match "*.webp" }}
 		<div class="top-card">
 			<p>
-			{{ range sort . }}
+			{{ range first 15 . }}
 			<img src="{{ .RelPermalink }}">
 			{{ end }}
 			</p>

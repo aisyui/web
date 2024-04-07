@@ -8,6 +8,7 @@
 				{{ range .Data.Pages.Reverse }}
 				<li class="blog-list-first">
 					<a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
+					{{ with .Params.tags }}{{ range . }}<button class="tag"><a href="/tags/{{ . }}/">{{ . }}</a>{{ end }}</button>{{ end }}
 				</li>
 				{{ end }}
 			</ul>
@@ -15,6 +16,6 @@
 	</div>
 </div>
 </div>
-		{{ partial "footer" . }}
+{{ partial "footer" . }}
 </body>
 </html>

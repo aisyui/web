@@ -1,4 +1,6 @@
+
 <div id="container">
+
 	<div class="outer">
 		<div id="blog-archives" class="category">
 			<ul class="cp_list">
@@ -11,10 +13,14 @@
 					</li>
 
 					{{ range $index,$value := (where $.Site.RegularPages.ByDate.Reverse "Section" "blog") }}
-					{{ if lt $index 1 }}
-						<li class="blog-list-first" style="display:block;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span> </li>
+					{{ if lt $index 3 }}
+					<li class="blog-list-first" style="display:block;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
+						{{ with .Params.tags }}{{ range . }}<button class="tag"><a href="/tags/{{ . }}/">{{ . }}</a>{{ end }}</button>{{ end }}
+					</li>
 					{{ else }}
-						<li class="blog-list-all" style="display:none;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span> </li>
+					<li class="blog-list-all" style="display:none;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
+						{{ with .Params.tags }}{{ range . }}<button class="tag"><a href="/tags/{{ . }}/">{{ . }}</a>{{ end }}</button>{{ end }}
+					</li>
 					{{ end }}
 					{{ end }}
 
@@ -24,7 +30,7 @@
 					{{ if or (eq $t "chara") (eq $t "story") (eq $t "card") (eq $t "vrm") }}
 
 					<li class="commit">
-						<span class="icon-moji_a"></span>
+						<a href="#header"><span class="icon-moji_a"></span></a>
 					</li>
 
 					<li class="top">
@@ -40,7 +46,7 @@
 					{{ end }}
 
 					<li class="commit">
-						<span class="icon-moji_a"></span>
+						<a href="#header"><span class="icon-moji_a"></span></a>
 						<!--
 						<i class="fa-solid fa-code-branch"></i>
 						<i class="fa-solid fa-code-commit"></i>
@@ -48,8 +54,13 @@
 						-->
 					</li>
 
+
+
 			</ul>
 		</div>
 	</div>
 </div>
+
+
 </div>
+

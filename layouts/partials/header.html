@@ -1,11 +1,18 @@
 <body>
+
 	<div class="containerx">
+
 		{{ $s := path.Dir (.Permalink | relURL) }}
 		{{ $t := index (split $s "/") 2 }}
 		{{ $o := index (split $s "/") 1 }}
+
 		<header id="header">
+			<!--
+			{{ partial "particles.html" . }}
+			-->
 			<div class="logo"> 
 				{{ partial "svg.html" . }}
+				{{ partial "term.html" . }}
 			</div>
 		</header>
 
@@ -34,9 +41,9 @@
 			<script src=/bitcoin/app.js></script>
 			-->
 
-			<a class="menu-link-left-black" href="https://card.syui.ai/ai"><i class="fa-solid fa-copy"></i></a>
-			<a class="menu-link-left-black" href="https://manga.syui.ai"><i class="fa-regular fa-comment-dots"></i></a>
-			<a class="menu-link-left-black" href="https://vrm.syui.ai"><i class="fa-solid fa-cube"></i></a>
+			<a class="menu-link-left-black" href="https://card.syui.ai/ai"><span class="icon-card"></span></a>
+			<a class="menu-link-left-black" href="https://manga.syui.ai"><span class="icon-book"></span></a>
+			<a class="menu-link-left-black" href="https://vrm.syui.ai"><span class="icon-game"></span></a>
 			<a class="menu-link-left-black" href="https://term.syui.ai"><span class="icon-aiterm"></span></a>
 			<a class="menu-link-left-black" href="https://git.syui.ai/ai"><span class="icon-git_bg"></span></a>
 
