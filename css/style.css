@@ -208,8 +208,9 @@ pre > code {
 }
 
 h2 {
+	font-size: 20px;
 	line-height: 2rem;
-	padding-bottom:2rem;
+	padding:2rem 0;
 }
 
 span.tag {
@@ -385,9 +386,10 @@ header#header {
 	.vrm iframe {
 		width:100%;
 	}
-
+	button.tag {
+		display:none;
+	}
 }
-
 
 .nav {
 	display: -ms-flexbox;
@@ -1151,3 +1153,8 @@ a.li-link-left {
 	padding-right: 20px;
 }
 
+button.tag {
+	float: right;
+	border:none;
+	background-color: #f1f1f1;
+}

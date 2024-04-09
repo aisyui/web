@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; syui</copyright>
-    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yui.syui.ai/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yui.syui.ai/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
-      <link>https://yui.syui.ai/tags/blog/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://yui.syui.ai/tags/blog/</guid>
+      <title>Author</title>
+      <link>https://yui.syui.ai/tags/author/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://yui.syui.ai/tags/author/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
