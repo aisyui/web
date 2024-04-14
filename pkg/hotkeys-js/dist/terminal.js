@@ -1,4 +1,6 @@
 hotkeys('ctrl+enter', function() {
+	let e = document.querySelector('home-layout');
+	e.style.display = "block";
 	var ele = document.getElementById('aiterm');
 	var win = document.getElementById('window');
 	var svg = document.getElementById('aisvg');
