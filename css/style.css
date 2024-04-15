@@ -1155,3 +1155,6 @@ button.tag {
 	background-color: #f1f1f1;
 }
 
+li.commit a span.icon-moji_a {
+	font-size: 30px;
+}
