@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>novel on yui</title>
-    <link>https://yui.syui.ai/novel/</link>
-    <description>Recent content in novel on yui</description>
+    <title>Novel on yui</title>
+    <link>https://yui.syui.ai/tags/novel/</link>
+    <description>Recent content in Novel on yui</description>
     <generator>Hugo 0.125.2</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; syui</copyright>
     <lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yui.syui.ai/novel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yui.syui.ai/tags/novel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>存在の花</title>
       <link>https://yui.syui.ai/novel/10/</link>
