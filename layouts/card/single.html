@@ -1,11 +1,11 @@
-{{ partial "head.html" . }}
+{{ partial "head-blog.html" . }}
 {{ partial "navbar.html" . }}
 {{ partial "header.html" . }}
-{{ .Content }}
 
-<hr />
 <article>
 	<div class="content">
+		<h1>{{ .Title }}</h1>
+		{{ .Content }}
 		{{ with .Resources.Match "*.webp" }}
 		<div class="top-card">
 			<p>

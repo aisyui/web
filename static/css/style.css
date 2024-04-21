@@ -40,6 +40,10 @@ p {
 	word-wrap: break-word;
 	word-break: break-all;
 }
+article {
+	padding: 40px;
+	background: #fff;
+}
 
 footer#footer {
 	margin-top:100px;
@@ -56,7 +60,18 @@ footer#footer a {
 	color: #fff700;
 }
 
-.containerx p img {
+img {
+	width: 100%;
+}
+
+.content p img {
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	display: block;
+}
+
+article p img {
 	width: 100%;
 }
 
@@ -348,7 +363,6 @@ iframe.manga {
 }
 
 header#header {
-	background-color: #313131;
 	position: relative;
 }
 
@@ -356,32 +370,17 @@ header#header {
 	margin:0 auto;
 	text-align: center;
 }
+
 .top-card p img {
 	width:80px;
 	padding:1px;
+	display: inline;
 }
 
-@media screen and (max-width:1000px) { 
-	html {
-		font-size: 100%; 
-	}
-	.logo span.icon-phoenix-world{
-		font-size: 60px;
-		font-size: 6rem;
-	}
-	.containerx { 
-		width: auto;
-		margin: 0 15px;
-		font-size:18px;
-		word-wrap: break-word;
-		word-break: break-all;
-	}
-	.vrm iframe {
-		width:100%;
-	}
-	button.tag {
-		display:none;
-	}
+.top-item p img {
+	width:100%;
+	padding:1px;
+	display: inline;
 }
 
 .nav {
@@ -1153,7 +1152,7 @@ li.commit a span.icon-moji_a {
 }
 
 blockquote {
-	background: #fff;
+	background: #f1f1f1;
 	padding: 20px;
 	margin: 20px 0;
 }
@@ -1168,4 +1167,121 @@ blockquote {
 
 .pager a {
 	color: #fff700;
+}
+
+a.menu-link-left-black:hover {
+	color: #b6b000;
+}
+
+span.comment-time {
+	float: right;
+	padding: 0 5px 0 5px;
+	color: #999;
+}
+
+span.comment-time a {
+	color: #999;
+}
+
+span.comment-time a:hover {
+	color: rgb(16, 131, 254);
+}
+
+span.comment-handle {
+	padding: 0 5px 0 5px;
+	position: absolute;
+}
+
+span.comment-handle a {
+	color: #313131;
+}
+
+img.comment {
+	width:60px;
+}
+
+p.comment-body {
+	border-bottom: solid 1px #eee;
+	padding: 20px;
+}
+
+span.comment-text {
+	padding:10px;
+}
+
+button.comment_open {
+	padding:20px 40px 20px 40px;
+	background-color: rgba(184,207,224,.24);
+	border: none;
+	margin:0;
+}
+button.comment_open:hover {
+	color: rgb(16, 131, 254);
+}
+
+.comment_open {
+	text-align: center;
+	width: 100%;
+}
+
+.comment_open p a {
+	color: rgb(16, 131, 254);
+}
+
+.bsky_comment {
+	background-color: #fff;
+	margin: 0px auto;
+	border: solid 1px #eee;
+}
+
+.bsky_comment_embed {
+	background-color: #fff;
+	width: 600px;
+	margin: 0px auto;
+}
+
+.comment {
+	background-color: #fff;
+}
+
+.loading {
+	background:#f1f1f1;
+	padding:25px;
+}
+.loading_none {
+	background:#f1f1f1;
+	padding:50px;
+}
+
+.bluesky-embed {
+	text-align: center;
+	margin: 0 auto;
+}
+
+@media screen and (max-width:1000px) { 
+	html {
+		font-size: 100%; 
+	}
+	.logo span.icon-phoenix-world{
+		font-size: 60px;
+		font-size: 6rem;
+	}
+	.containerx { 
+		width: auto;
+		font-size:18px;
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	.vrm iframe {
+		width:100%;
+	}
+	button.tag {
+		display:none;
+	}
+	article {
+		padding: 15px;
+	}
+	.content p img {
+		width:100%;
+	}
 }

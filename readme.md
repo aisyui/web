@@ -1,17 +1,15 @@
-## <img src="./static/icon/ai.png" width="30"> ai `web`
+# <img src="./static/icon/ai.png" width="30"> ai `web`
 
 `ai/web` page is `hugo` deploy.
 
-### ref
-
-#### origin
+## origin
 
 - [ai/term](https://git.syui.ai/ai/term)
 - [ai/card](https://git.syui.ai/ai/manga)
 - [ai/vrm](https://git.syui.ai/ai/vrm)
 - [ai/manga](https://git.syui.ai/ai/manga)
 
-#### build & deploy
+## build & deploy
 
 - [hugo](https://github.com/gohugoio/hugo)
 - [gh-pages](https://docs.github.com/pages)
@@ -19,8 +17,8 @@
 - [gh-actions](https://docs.github.com/actions)
 - [ge-actions](https://docs.gitea.com/usage/actions/overview)
 
-#### packages
+## packages
 
 - [icomoon](https://icomoon.io/app/#/select)
-- [fontawesome](https://github.com/FortAwesome/Font-Awesome)
+- [font-awesome](https://github.com/FortAwesome/Font-Awesome)
 - [hotkeys-jp](https://github.com/jaywcjlove/hotkeys-js)

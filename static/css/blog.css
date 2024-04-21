@@ -1,0 +1,11 @@
+.containerx {
+	padding: 0 250px;
+	width: auto;
+}
+@media screen and (max-width:1000px) { 
+	.containerx { 
+		padding: 0;
+	}
+}
+
+

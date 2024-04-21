@@ -10,9 +10,11 @@ paginate = 10000
 
 [author]
 	name = "syui"
+
 [params]
     date_format = "2006-01-02"
     mainSections = ["post"]
+ 			author.name = "syui"
 
 [markup.goldmark.renderer]
   unsafe = true

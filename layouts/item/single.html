@@ -1,15 +1,23 @@
 {{ partial "head-blog.html" . }}
 {{ partial "navbar.html" . }}
 {{ partial "header.html" . }}
+
+<article>
 	<div class="content">
 		<h1>{{ .Title }}</h1>
-		{{ with .Resources.Match "book_*.png" }}
-			{{ range $index, $val := . }}
-			<p><a href="https://syui.booth.pm/items/4938622"><img src="{{ .RelPermalink }}"></a></p>
+		{{ .Content }}
+		{{ with .Resources.Match "*.jpg" }}
+		<div class="top-item">
+			<p>
+			{{ range . }}
+			<img src="{{ .RelPermalink }}">
 			{{ end }}
+			</p>
+		</div>
 		{{ end }}
-
 	</div>
+</article>
+
 </div>
 {{ partial "footer.html" . }}
 </body>

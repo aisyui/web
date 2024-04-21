@@ -1,4 +1,4 @@
-{{ partial "head.html" . }}
+{{ partial "head-blog.html" . }}
 {{ partial "navbar.html" . }}
 {{ partial "header.html" . }}
 
@@ -10,11 +10,7 @@
 	</div>
 </article>
 
-<!--
-{{ $s := path.Dir (.Permalink | relURL) }}
-{{ $o := index (split $s "/") 1 }}
-<div class="pager"><a href="{{ printf "/%s" $o }}">{{ $o }}</a></div>
--->
+{{ partial "comment.html" . }}
 
 </div>
 {{ partial "footer.html" . }}
