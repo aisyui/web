@@ -57,7 +57,11 @@ footer#footer a {
 }
 
 .containerx p img {
-	width: 100%;
+	padding:20px 0;
+	width:300px;
+	text-align: center;
+	margin: auto;
+	display: block;
 }
 
 .highlight {
