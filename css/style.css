@@ -360,9 +360,17 @@ header#header {
 	margin:0 auto;
 	text-align: center;
 }
+
 .top-card p img {
 	width:80px;
 	padding:1px;
+	display: inline;
+}
+
+.top-item p img {
+	width:100%;
+	padding:1px;
+	display: inline;
 }
 
 @media screen and (max-width:1000px) { 
