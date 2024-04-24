@@ -40,6 +40,10 @@ p {
 	word-wrap: break-word;
 	word-break: break-all;
 }
+article {
+    padding: 40px;
+    background: #fff;
+}
 
 footer#footer {
 	margin-top:100px;
@@ -383,7 +387,6 @@ header#header {
 	}
 	.containerx { 
 		width: auto;
-		margin: 0 15px;
 		font-size:18px;
 		word-wrap: break-word;
 		word-break: break-all;
@@ -395,7 +398,7 @@ header#header {
 		display:none;
 	}
 	article {
-		padding: 10px;
+		padding: 15px;
 	}
 }
 
@@ -1185,7 +1188,3 @@ blockquote {
 	color: #fff700;
 }
 
-article {
-    padding: 40px;
-    background: #fff;
-}
