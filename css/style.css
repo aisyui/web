@@ -394,6 +394,9 @@ header#header {
 	button.tag {
 		display:none;
 	}
+	article {
+		padding: 10px;
+	}
 }
 
 .nav {
@@ -1165,7 +1168,7 @@ li.commit a span.icon-moji_a {
 }
 
 blockquote {
-	background: #fff;
+	background: #f1f1f1;
 	padding: 20px;
 	margin: 20px 0;
 }
@@ -1180,4 +1183,9 @@ blockquote {
 
 .pager a {
 	color: #fff700;
+}
+
+article {
+    padding: 40px;
+    background: #fff;
 }
