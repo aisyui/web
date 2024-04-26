@@ -60,6 +60,10 @@ footer#footer a {
 	color: #fff700;
 }
 
+img {
+	width: 100%;
+}
+
 .content p img {
 	text-align: center;
 	margin: 0 auto;
