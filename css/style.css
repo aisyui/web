@@ -377,31 +377,6 @@ header#header {
 	display: inline;
 }
 
-@media screen and (max-width:1000px) { 
-	html {
-		font-size: 100%; 
-	}
-	.logo span.icon-phoenix-world{
-		font-size: 60px;
-		font-size: 6rem;
-	}
-	.containerx { 
-		width: auto;
-		font-size:18px;
-		word-wrap: break-word;
-		word-break: break-all;
-	}
-	.vrm iframe {
-		width:100%;
-	}
-	button.tag {
-		display:none;
-	}
-	article {
-		padding: 15px;
-	}
-}
-
 .nav {
 	display: -ms-flexbox;
 	display: flex;
@@ -1190,4 +1165,29 @@ blockquote {
 
 a.menu-link-left-black:hover {
     color: #b6b000;
+}
+
+@media screen and (max-width:1000px) { 
+	html {
+		font-size: 100%; 
+	}
+	.logo span.icon-phoenix-world{
+		font-size: 60px;
+		font-size: 6rem;
+	}
+	.containerx { 
+		width: auto;
+		font-size:18px;
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	.vrm iframe {
+		width:100%;
+	}
+	button.tag {
+		display:none;
+	}
+	article {
+		padding: 15px;
+	}
 }
