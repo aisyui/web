@@ -1,5 +1,5 @@
 .containerx {
-	padding: 0 250px;
+	padding: 100px 250px;
 	width: auto;
 }
 @media screen and (max-width:1000px) { 
@@ -7,5 +7,3 @@
 		padding: 0;
 	}
 }
-
-
