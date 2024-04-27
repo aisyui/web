@@ -366,6 +366,14 @@ header#header {
 	position: relative;
 }
 
+.stars {
+	background: #313131;
+}
+
+#minimap {
+	display: none;
+}
+
 .top-card {
 	margin:0 auto;
 	text-align: center;
