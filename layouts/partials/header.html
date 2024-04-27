@@ -1,54 +1,41 @@
 <body>
-
-	<div class="containerx">
-
-		{{ $s := path.Dir (.Permalink | relURL) }}
-		{{ $t := index (split $s "/") 2 }}
-		{{ $o := index (split $s "/") 1 }}
-
-		<header id="header">
-			<!--
-			{{ partial "particles.html" . }}
-			-->
-
-			<div class="logo"> 
-				{{ partial "svg.html" . }}
-				{{ if eq $o "" }}
-				{{ partial "term.html" . }}
-				{{ end }}
-			</div>
-		</header>
-
-		{{ if eq $o "" }}
-
-		<div class="hotkeys-docs">
-
-			<table>
-					<tbody>
-						<tr>
-							<td class="bg"><code>ctrl</code> + <code>enter</code></td>
-						</tr>
-					</tbody>
-				</table>
-
+	{{ $s := path.Dir (.Permalink | relURL) }}
+	{{ $t := index (split $s "/") 2 }}
+	{{ $o := index (split $s "/") 1 }}
+	<header id="header">
+		<div class="logo"> 
+			{{ partial "svg.html" . }}
+			{{ if eq $o "" }}
+			{{ partial "term.html" . }}
+			{{ end }}
 		</div>
-
+	</header>
+	<div class="containerx">
+		{{ if eq $o "" }}
+		<div class="hotkeys-docs">
+			<table>
+				<tbody>
+					<tr>
+						<td class="bg"><code>ctrl</code> + <code>enter</code></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 		<span class="menu-right-top">
-
 			<!--
-			<a class="menu-link-left" href="/bitcoin"><i class="fa-brands fa-bitcoin"></i></a>
+				<a class="menu-link-left" href="/bitcoin"><i class="fa-brands fa-bitcoin"></i></a>
 			-->
 			<!--
-			<div id=app></div>
-			<script src=/bitcoin/chunk-vendors.js></script>
-			<script src=/bitcoin/app.js></script>
-			-->
+				<div id=app></div>
+				<script src=/bitcoin/chunk-vendors.js></script>
+				<script src=/bitcoin/app.js></script>
+				-->
 
-			<a class="menu-link-left-black" href="https://card.syui.ai/ai"><span class="icon-card"></span></a>
-			<a class="menu-link-left-black" href="https://manga.syui.ai"><span class="icon-book"></span></a>
-			<a class="menu-link-left-black" href="https://vrm.syui.ai"><span class="icon-game"></span></a>
-			<a class="menu-link-left-black" href="https://term.syui.ai"><span class="icon-aiterm"></span></a>
-			<a class="menu-link-left-black" href="https://git.syui.ai/ai"><span class="icon-git"></span></a>
+				<a class="menu-link-left-black" href="https://card.syui.ai/ai"><span class="icon-card"></span></a>
+				<a class="menu-link-left-black" href="https://manga.syui.ai"><span class="icon-book"></span></a>
+				<a class="menu-link-left-black" href="https://vrm.syui.ai"><span class="icon-game"></span></a>
+				<a class="menu-link-left-black" href="https://term.syui.ai"><span class="icon-aiterm"></span></a>
+				<a class="menu-link-left-black" href="https://git.syui.ai/ai"><span class="icon-git"></span></a>
 
 		</span>
 		{{ end }}

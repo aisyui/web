@@ -7,12 +7,12 @@
 					{{ range .Data.Pages }}
 					{{ $t := index (split .Permalink "/") 3 }}
 
-					{{ if or (eq $t "blog") }}
+					{{ if or (eq $t "blog") (eq $t "novel") }}
 					<li class="top">
-						<a href="{{.Permalink}}">blog</a> <a class="li-link-left" href="{{ .Site.BaseURL }}/blog/index.xml"><i class="fa-solid fa-rss"></i></a>
+						<a href="{{.Permalink}}">{{ $t }}</a> <a class="li-link-left" href="{{ .Site.BaseURL }}/{{ $t }}/index.xml"><i class="fa-solid fa-rss"></i></a>
 					</li>
+					{{ range $index,$value := (where $.Site.RegularPages.ByDate "Section" $t) }}
 
-					{{ range $index,$value := (where $.Site.RegularPages.ByDate.Reverse "Section" "blog") }}
 					{{ if lt $index 3 }}
 					<li class="blog-list-first" style="display:block;"> <a href="{{.Permalink}}">{{.Title}}</a> <span class="blog-date">{{ .Date.Local.Format "2006-01-02" }}</span>
 						{{ with .Params.tags }}{{ range . }}<button class="tag"><a href="/tags/{{ . }}/">{{ . }}</a>{{ end }}</button>{{ end }}
@@ -23,7 +23,6 @@
 					</li>
 					{{ end }}
 					{{ end }}
-
 					<li class="blog-menu"><button onclick="blog_list_open();"><i class="fa-solid fa-angle-down"></i></button></li>
 					{{ end }}
 
@@ -42,25 +41,20 @@
 					{{ .Summary }}
 					{{ end }}
 					{{ end }}
-
+					
 					{{ end }}
 
 					<li class="commit">
 						<a href="#header"><span class="icon-moji_a"></span></a>
-						<!--
-						<i class="fa-solid fa-code-branch"></i>
-						<i class="fa-solid fa-code-commit"></i>
-						<i class="fa-solid fa-code-merge"></i>
-						-->
 					</li>
-
-
 
 			</ul>
 		</div>
 	</div>
 </div>
 
+{{ partial "contribution.html" . }}
+{{ partial "link.html" . }}
 
 </div>
 

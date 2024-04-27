@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+width="100.000000pt" height="100.000000pt" viewBox="0 0 512.000000 512.000000"
+preserveAspectRatio="xMidYMid meet">
+<metadata>syui</metadata>
+<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+fill="#fff700" stroke="none">
+<circle cx="2500" cy="2500" r="1500" />
+</g>
+<g transform="scale(3 3) matrix(0.866, -0.5, 0.25, 0.433, 85, 85)" >
+	<path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z" fill="#fff700" >
+		<animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="1s" repeatCount="indefinite" />
+		<animate fill="freeze" dur="4000ms" begin="0s" values="#D38EFF;#DD6699;#DDDD00;#008CCF" calMode="linear" attributeName="fill" repeatCount="indefinite" />
+	</path>
+</g>
+</svg>
+

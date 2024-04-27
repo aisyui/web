@@ -1,5 +1,25 @@
-<div id="particles-js"></div>
-<script src="/pkg/particles/particles.min.js"></script>
-<script src="/pkg/particles/stats.min.js"></script>
-<script src="/pkg/particles/config.js"></script>
+<script>
+function sun_open() {
+	var n = document.querySelectorAll(".nasa");
+	var index = 0, length = n.length;
+	for ( ; index < length; index++) {
+		if (n[index].style.display == 'block') {
+			n[index].style.display = 'none'; 
+		} else {
+			n[index].style.display = 'block'; 
+		}
+	}
+}
+</script>
+
 <link rel="stylesheet" href="/pkg/particles/particles.css" />
+<div class="sun">
+	<div class="sun-button">
+		<img id="sun-img-button" src="/icon/sun.svg" onclick="sun_open()">
+	</div>
+	<div class="sun-particles">
+		<div id="particles-js"></div>
+	</div>
+</div>
+<script src="/pkg/particles/particles.min.js"></script>
+<script src="/pkg/particles/config.js"></script>
