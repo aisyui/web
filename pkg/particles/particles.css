@@ -1,0 +1,17 @@
+canvas{
+	display: block;
+	vertical-align: bottom;
+}
+#particles-js{
+	/* position:absolute; */
+	position:static;
+	width: 100%; 
+	height: 100%;
+	background-color: #313131;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: 50% 50%;
+}
+.count-particles{
+	border-radius: 0 0 3px 3px;
+}
