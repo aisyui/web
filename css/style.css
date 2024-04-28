@@ -1294,10 +1294,6 @@ button.comment_open:hover {
 	padding: 30px;
 }
 
-.sun {
-	display: block;
-}
-
 .nasa {
 	display: none;
 }
@@ -1308,6 +1304,11 @@ button.comment_open:hover {
 	text-align: center;
 	width: 100%;
 }
+
+.sun-particles {
+	display: block;
+}
+
 .sun-button img {
 	width: 50px;
 	margin: 50% 0 0 0;
