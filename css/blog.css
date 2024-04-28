@@ -2,6 +2,11 @@
 	padding: 100px 250px;
 	width: auto;
 }
+
+.sun-button {
+	display: none;
+}
+
 @media screen and (max-width:1000px) { 
 	.containerx { 
 		padding: 0;

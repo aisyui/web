@@ -44,8 +44,26 @@ article {
 	background: #fff;
 }
 
-footer#footer {
+.stars {
+	background: #313131;
+}
+
+footer.footer {
 	/* margin-top:100px; */
+	text-align: center;
+	height:60px;
+	padding-top:100px;
+	color: #fff700;
+	font-size: 20px;
+	background-color:#313131;
+	position: relative;
+}
+
+footer.footer a {
+	color: #fff700;
+}
+
+footer#footer {
 	text-align: center;
 	height:60px;
 	padding-top:100px;
@@ -364,10 +382,6 @@ iframe.manga {
 
 header#header {
 	position: relative;
-}
-
-.stars {
-	background: #313131;
 }
 
 #minimap {
@@ -1278,6 +1292,26 @@ button.comment_open:hover {
 	background: #fff;
 	margin: 50px 0;
 	padding: 30px;
+}
+
+.sun {
+	display: block;
+}
+
+.nasa {
+	display: none;
+}
+
+.sun-button {
+	position: absolute;
+	margin: 0 auto;
+	text-align: center;
+}
+.sun-button img {
+	width: 50%;
+}
+img#sun-img-button:hover {
+	opacity: 0.5;
 }
 
 @media screen and (max-width:1000px) { 

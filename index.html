@@ -421,12 +421,40 @@ div#example-b{
 </div>
 
 <div class="stars">
+<script>
+function sun_open() {
+	var b = document.querySelectorAll(".sun");
+	var n = document.querySelectorAll(".nasa");
+	var index = 0, length = b.length;
+	for ( ; index < length; index++) {
+		if (b[index].style.display == 'none') {
+			b[index].style.display = 'block'; 
+			n[index].style.display = 'none'; 
+		} else {
+			b[index].style.display = 'none';
+			n[index].style.display = 'block'; 
+		}
+	}
+}
+</script>
+
 <link rel="stylesheet" href="/pkg/particles/particles.css" />
-<div id="particles-js"></div>
+<div class="sun">
+	<div class="sun-button">
+		<img id="sun-img-button" src="/icon/sun.png" onclick="sun_open()">
+	</div>
+	<div id="particles-js"></div>
+</div>
 <script src="/pkg/particles/particles.min.js"></script>
 <script src="/pkg/particles/config.js"></script>
 
-<iframe src="/pkg/galaxy/" allowfullscreen frameborder="0" style="width:100%;height:700px;"></iframe>
+<div class="nasa">
+<iframe src="https://eyes.nasa.gov/apps/solar-system/#/sun/distance?to=earth" allowfullscreen frameborder="0" style="width:100%;height:700px;"></iframe>
+</div>
+
+
+<iframe src="/pkg/galaxy/?star=fff700&in=fff700&out=fff700&bg=0x000000" allowfullscreen frameborder="0" style="width:100%;height:700px;"></iframe>
+
 
 </div>
 

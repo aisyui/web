@@ -9,3 +9,4 @@ function blog_list_open() {
 		}
 	}
 }
+
