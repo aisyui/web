@@ -1306,12 +1306,15 @@ button.comment_open:hover {
 	position: absolute;
 	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 }
 .sun-button img {
-	width: 50%;
+	width: 50px;
+	margin: 50% 0 0 0;
 }
+
 img#sun-img-button:hover {
-	opacity: 0.5;
+	background:#fff700
 }
 
 @media screen and (max-width:1000px) { 
