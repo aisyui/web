@@ -7,7 +7,7 @@
 					{{ range .Data.Pages }}
 					{{ $t := index (split .Permalink "/") 3 }}
 
-					{{ if or (eq $t "blog") (eq $t "novel") }}
+					{{ if or (eq $t "blog") }}
 					<li class="top">
 						<a href="{{.Permalink}}">{{ $t }}</a> <a class="li-link-left" href="{{ .Site.BaseURL }}/{{ $t }}/index.xml"><i class="fa-solid fa-rss"></i></a>
 					</li>
