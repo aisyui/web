@@ -32,21 +32,22 @@ var options = {
     color: 0xfff700,
     colorRandomness: .2,
     turbulence: 0.,
-    lifetime: 2.,
+    lifetime: .1,
     size: 10,
     sizeRandomness: 2
 };
 
 var spawnerOptions = {
-    spawnRate: 15000,
-    horizontalSpeed: 1.5,
-    verticalSpeed: 1.33, timeScale: 1,
+    spawnRate: 1500000,
+    horizontalSpeed: .1,
+    verticalSpeed: .1, timeScale: .1,
 };
 
 $('.progress').progressInitialize();
 
 var progressBar = $('#control');
-
+pre();
+$(this).removeAttr('onclick');
 progressBar.click(function (e) {
     e.preventDefault();
     progressBar.progressSet(0);
@@ -127,7 +128,7 @@ function initCamera() {
     roamingCamera = new cameraParameters(3000, 200, "Astronaut");
     switchCamera = new cameraParameters(3000, 200, "Sun");
     switchCamera.setCamera();
-    trackCamera["Galaxy"] = new cameraParameters(7000, 200, "Sun");
+    trackCamera["Galaxy"] = new cameraParameters(70000, 200, "Sun");
     trackCamera["Galaxy"].theta = 80.0;
     trackCamera["Galaxy"].phi = 0.0;
     trackCamera["Comet"] = new cameraParameters(1000, 1000, "Comet");
@@ -187,16 +188,16 @@ function initRender() {
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
 
-    // renderer.shadowMapEnabled = true;
-    // renderer.shadowMapSoft = true;
-    // renderer.shadowMap.enabled = true;
-    // renderer.shadowCameraNear = 3;
-    // renderer.shadowCameraFar = 100;
-    // renderer.shadowMapDarkness = 0.2;
-    // renderer.shadowCameraFov = 50;
-    // renderer.shadowMapBias = 0.0039;
-    // renderer.shadowMapWidth = 1024;
-    // renderer.shadowMapHeight = 1024;
+    //renderer.shadowMapEnabled = true;
+    //renderer.shadowMapSoft = true;
+    //renderer.shadowMap.enabled = true;
+    //renderer.shadowCameraNear = 3;
+    //renderer.shadowCameraFar = 100;
+    //renderer.shadowMapDarkness = 0.2;
+    //renderer.shadowCameraFov = 50;
+    //renderer.shadowMapBias = 0.0039;
+    //renderer.shadowMapWidth = 1024;
+    //renderer.shadowMapHeight = 1024;
 }
 
 function initObjects() {
@@ -249,15 +250,15 @@ function initGui() {
     var orbit = gui.addFolder('Orbit');
     orbitParams = {
         Comet: false,
-        Mercury: true,
-        Venus: true,
-        Earth: true,
-        Mars: true,
-        Jupiter: true,
-        Saturn: true,
-        Uranus: true,
-        Neptune: true,
-        Pluto: true
+        Mercury: false,
+        Venus: false,
+        Earth: false,
+        Mars: false,
+        Jupiter: false,
+        Saturn: false,
+        Uranus: false,
+        Neptune: false,
+        Pluto: false
     };
     var comet = gui.addFolder('CometParameters');
     cometParams = {
@@ -315,7 +316,7 @@ function initGui() {
         this.Collision = false;
         this.Light = 1.0;
         this.Ambient = 0.4;
-        this.TimeScale = 1.0;
+        this.TimeScale = 0.1;
         this.Screenshot = function () {
             var dataURL = renderer.domElement.toDataURL();
             var newWindow = window.open()
@@ -352,7 +353,7 @@ function initGui() {
     gui.add(control, "Collision");
     gui.add(control, "Roam");
     gui.add(control, "Screenshot");
-    gui.autoPlace = false;
+    gui.autoPlace = true;
 }
 
 
@@ -368,6 +369,7 @@ function init() {
     stats = new Stats();
     gui = new dat.GUI();
     gui.close();
+				dat.GUI.toggleHide();
     window.addEventListener('mousedown', onWindowMouseDown, false);
     window.addEventListener('mousemove', onWindowMouseMove, false);
     window.addEventListener('mouseup', onWindowMouseUp, false);
