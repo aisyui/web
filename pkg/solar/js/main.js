@@ -426,3 +426,8 @@ function animate() {
     stats.update();
 }
 
+function key_press_h() {
+	gui = new dat.GUI();
+	gui.open();
+	initGui()
+}
