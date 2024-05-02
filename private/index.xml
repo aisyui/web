@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Author on yui</title>
-    <link>https://yui.syui.ai/tags/author/</link>
-    <description>Recent content in Author on yui</description>
+    <title>Privates on yui</title>
+    <link>https://yui.syui.ai/private/</link>
+    <description>Recent content in Privates on yui</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; syui</copyright>
     <lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yui.syui.ai/tags/author/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yui.syui.ai/private/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>神話と物理</title>
       <link>https://yui.syui.ai/private/gen/</link>

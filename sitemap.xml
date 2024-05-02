@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yui.syui.ai/blog/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/tags/news/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/tags/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/blog/post/2024/04/30/manga/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://yui.syui.ai/tags/author/</loc>
     <lastmod>2024-04-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/blog/</loc>
+    <loc>https://yui.syui.ai/private/</loc>
     <lastmod>2024-04-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/tags/</loc>
+    <loc>https://yui.syui.ai/private/gen/</loc>
     <lastmod>2024-04-13T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/</loc>
-    <lastmod>2024-04-13T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/04/13/gen/</loc>
-    <lastmod>2024-04-13T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/04/12/setting/</loc>
+    <loc>https://yui.syui.ai/private/setting/</loc>
     <lastmod>2024-04-12T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/04/11/world/</loc>
+    <loc>https://yui.syui.ai/private/world/</loc>
     <lastmod>2024-04-11T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/novel/</loc>
@@ -29,13 +38,13 @@
     <loc>https://yui.syui.ai/tags/novel/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/04/10/yui/</loc>
+    <loc>https://yui.syui.ai/private/yui/</loc>
     <lastmod>2024-04-10T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/novel/10/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/04/09/ai/</loc>
+    <loc>https://yui.syui.ai/private/ai/</loc>
     <lastmod>2024-04-09T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/chara/</loc>
