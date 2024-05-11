@@ -1330,7 +1330,9 @@ img#sun-img-button:hover {
 }
 
 pre > code > span {
-    padding: 20px;
+	padding: 20px;
+	line-break: anywhere;
+	word-break: break-all;
 }
 
 @media screen and (max-width:1000px) { 
