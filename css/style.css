@@ -1329,6 +1329,10 @@ img#sun-img-button:hover {
 	background:#fff700a6;
 }
 
+pre > code > span {
+    padding: 20px;
+}
+
 @media screen and (max-width:1000px) { 
 	html {
 		font-size: 100%; 
