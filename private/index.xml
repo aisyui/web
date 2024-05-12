@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; syui</copyright>
-    <lastBuildDate>Thu, 02 May 2024 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://yui.syui.ai/private/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>質量と計算</title>
+      <link>https://yui.syui.ai/private/post/2024/05/03/phoenix/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0900</pubDate>
+      <guid>https://yui.syui.ai/private/post/2024/05/03/phoenix/</guid>
+      <description>この作品ではキャラクターの強さ(エネルギー)を質量と表現しています。&#xA;物理学では質量とエネルギーは等価と考えられています。&#xA;E = mc^2&#xA;ここで、ブラックホールを例に質量や大きさを見ていきたいと思います。&#xA;ブラックホール ブラックホールの大きさは質量から計算できます。具体的にはシュバルツシルト半径を使います。&#xA;事象の地平線は重力により光すら抜け出せなくなる境界面のこと。これをブラックホールの大きさ(半径)とします。&#xA;Rs = 2GM/c^2&#xA;Rs = M/10^27&#xA;質量を10^27で割った数字がシュバルツシルト半径です。&#xA;では、宇宙最大のブラックホールであるフェニックスAはどれくらいの質量、大きさを持つのでしょうか。&#xA;フェニックスAは太陽の1000億倍の質量を持ち、大きさは1000億kmです。&#xA;太陽自体がとても大きい天体で70万kmです。ブラックホールは基本的にとても小さな天体です。例えば、太陽規模の質量を持つブラックホールだと7kmくらいです。したがって、ブラックホールの大きさが1000億kmというのがどれほど規格外なのかわかります。&#xA;wiki / Faren29 </description>
+    </item>
     <item>
       <title>発明と発展</title>
       <link>https://yui.syui.ai/private/post/2024/05/02/setting/</link>
