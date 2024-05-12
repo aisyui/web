@@ -4,12 +4,28 @@
 
 <article>
 	<div class="content">
-		{{ if ne .Lastmod .Date }}<div class="post-time-date">{{ .Lastmod.Format "2006-01-02" }}</div>{{ end }}
+		<div class="post-time-date">
+			{{ if ne .Lastmod .Date }}
+			<p>{{ .Lastmod.Format "2006-01-02" }}</p>
+			{{ end }}
+			{{ $taxo := "tags" }}
+			{{ with .Param $taxo }}
+			<p><i class="fa-regular fa-folder"></i> {{ if gt (len .) 1 }}{{ end }}
+			{{ range $index, $director := . }}
+			{{- if gt $index 0 }}, {{ end -}}
+			{{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+			<a href="{{ .Permalink }}">{{ $director }}</a>
+			{{ end }}
+			{{ end }}
+			{{ end }}
+		</div>
+
 		<h1>{{ .Title }}</h1>
 		{{ .Content }}
 	</div>
 </article>
 
+{{ partial "next.html" . }}
 {{ partial "comment.html" . }}
 
 </div>
