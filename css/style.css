@@ -1336,6 +1336,10 @@ pre > code > span {
 	word-break: break-all;
 }
 
+span.icon-git {
+    font-size: 20px;
+}
+
 @media screen and (max-width:1000px) { 
 	html {
 		font-size: 100%; 
