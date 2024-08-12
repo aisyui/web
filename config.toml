@@ -5,28 +5,29 @@ copyright = "&copy; syui"
 paginate = 10000
 
 [permalinks]
-    blog = "/blog/post/:year/:month/:day/:slug"
-    novel = "/novel/:slug"
-    private = "/private/post/:year/:month/:day/:slug"
+blog = "/blog/post/:year/:month/:day/:slug"
+novel = "/novel/:slug"
+private = "/private/post/:year/:month/:day/:slug"
 
 [author]
-	name = "syui"
+name = "syui"
+email = "ai@syui.ai"
 
 [params]
-    date_format = "2006-01-02"
-    mainSections = ["post"]
- 			author.name = "syui"
+date_format = "2006-01-02"
+mainSections = ["post"]
+author.name = "syui"
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [frontmatter]
-	date  = [":filename", ":default"]
+date  = [":filename", ":default"]
 
 [taxonomies]
-	tag = "tags"
+tag = "tags"
 
 [outputs]
-  home = ["JSON", "HTML"]
+home = ["JSON", "HTML"]
 
 #pygmentsCodeFences = false
