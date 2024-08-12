@@ -2,31 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yui.syui.ai/tags/blog/</loc>
-    <lastmod>2024-05-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/blog/</loc>
-    <lastmod>2024-05-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/tags/</loc>
-    <lastmod>2024-05-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/</loc>
-    <lastmod>2024-05-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/05/23/blog/</loc>
-    <lastmod>2024-05-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/tags/news/</loc>
-    <lastmod>2024-05-03T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/blog/post/2024/05/03/manga/</loc>
-    <lastmod>2024-05-03T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://yui.syui.ai/tags/author/</loc>
     <lastmod>2024-05-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/private/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/tags/</loc>
+    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/</loc>
     <lastmod>2024-05-01T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/private/post/2024/05/01/story/</loc>
