@@ -1355,6 +1355,7 @@ pre > code > span {
 .sns-message p {
 	padding: 10px ;
 }
+
 .sns-message img {
 	background-color:#fff;
 	width:80px;
@@ -1362,4 +1363,12 @@ pre > code > span {
 	border: solid 1px #313131;
 	margin: 30px;
 	float: left;
+}
+
+.footer-qr {
+	text-align:center;
+	margin: 100px 0 100px 0;
+}
+span.footer-link img {
+	width: 200px;
 }
