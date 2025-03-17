@@ -19,19 +19,19 @@ function replace() {
 	console.log(u);
 	switch (u) {
 		case '0':
-			url = durl + "?g=sun";
+			url = durl + "?ms=0&g=sun";
 			break;
 		case '1':
-			url = durl + "?g=galaxy";
+			url = durl + "?ms=0&g=galaxy";
 			break;
 		case '2':
-			url = durl + "?g=neutron";
+			url = durl + "?ms=0&g=neutron";
 			break;
 		case '3':
-			url = durl + "?g=earth";
+			url = durl + "?ms=0&g=earth";
 			break;
 		default:
-			url = durl + "?g=moon";
+			url = durl + "?ms=0&g=moon";
 	}
 	link.setAttribute('src', url);
 }
