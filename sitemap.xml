@@ -2,41 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yui.syui.ai/tags/author/</loc>
-    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/private/</loc>
-    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/tags/</loc>
-    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/</loc>
-    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/private/post/2024/05/01/story/</loc>
-    <lastmod>2024-05-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/private/post/2024/04/12/setting/</loc>
-    <lastmod>2024-04-12T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://yui.syui.ai/novel/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/tags/novel/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yui.syui.ai/private/post/2024/04/10/yui/</loc>
-    <lastmod>2024-04-10T00:00:00+09:00</lastmod>
+    <loc>https://yui.syui.ai/tags/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yui.syui.ai/</loc>
+    <lastmod>2024-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/novel/10/</loc>
     <lastmod>2024-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/private/post/2024/04/10/story/</loc>
-    <lastmod>2024-04-10T00:00:01+09:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/private/post/2024/04/09/ai/</loc>
-    <lastmod>2024-04-09T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://yui.syui.ai/chara/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
@@ -79,8 +58,6 @@
   </url><url>
     <loc>https://yui.syui.ai/novel/01/</loc>
     <lastmod>2020-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yui.syui.ai/bitcoin/</loc>
   </url><url>
     <loc>https://yui.syui.ai/book/</loc>
   </url>
