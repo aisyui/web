@@ -1,0 +1,13 @@
+{
+  "id": "airse",
+  "name": "Airse",
+  "domain": "rse.syui.ai",
+  "scheme": "airse",
+  "version": "1.0.0",
+  "category": "Game",
+  "description": "Airse is an adventure game built with Unreal Engine, featuring AT Protocol integration.",
+  "backLink": "syui.ai",
+  "icon": "/static/app.png",
+  "os": "Windows / macOS",
+  "price": "Free"
+}

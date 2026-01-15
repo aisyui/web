@@ -1,0 +1,13 @@
+{
+  "id": "aicard",
+  "name": "Aicard",
+  "domain": "card.syui.ai",
+  "scheme": "aicard",
+  "version": "1.0.0",
+  "category": "Game",
+  "description": "Aicard is a card collection game integrated with AT Protocol.",
+  "backLink": "syui.ai",
+  "icon": "/static/app.png",
+  "os": "iOS 26.0+",
+  "price": "Free"
+}

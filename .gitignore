@@ -2,9 +2,11 @@ public
 build
 resources
 *.lock
+.claude
 
 .DS_Store
 node_modules
+package-lock.json 
 
 # local env files
 .env.local
@@ -37,3 +39,4 @@ content/*/*_private.pem
 content/*/*.json
 
 static/*lock*
+app/dist
